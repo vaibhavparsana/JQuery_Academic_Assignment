@@ -1,0 +1,50 @@
+body {
+    background: #eaeaea;
+}
+
+table {
+    border: none;
+    background-color: black;
+    padding: 4px;
+
+    font-weight: bold;
+    font-family: Courier;
+    box-shadow: 15px 18px 8px #888888;
+}
+
+tbody tr:nth-child(even) td {
+    background: #ededed;
+}
+
+tbody tr:nth-child(odd) td {
+    background: white;
+}
+
+#myTable {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+th {
+    padding: 10px;
+    width: 80px;
+    background-color: #de9d9d;
+    font-size: 20px;
+}
+
+td {
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-family: Courier;
+    font-weight: bold;
+}
